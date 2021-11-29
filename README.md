@@ -16,7 +16,7 @@ python train.py
 ```
 
 Then when training finishes you can evaluate with the test dataset :
-Modify eveluate.py line 21 to select test dataset range, and change market line 9 accordingly.To avoid nan value and training set, enter starting row above 20 + training rows. model choose "model_ep29" as "model_ep39" was not saved properly. then run 
+Modify eveluate.py line 21 to select test dataset range, and change market line 9 accordingly.To avoid nan value and training set, enter starting row above 20 + training rows. model choose  "model_ep39"  then run the codes.
 ```
 python evaluate.py 
 ```
