@@ -2,8 +2,6 @@
 
 An implementation of Deep Q-Network applied to foreign exchange trading. The model uses the difference of 5 and 10 days moving average of closing prices and normalised volumns to determine if the best action to take at a given time is to buy, sell or hold.
 
-As a result, the model is not very good at making decisions over the relatively resting market, but produces excellent performance in turmoil market.
-
 The model has been trained with GBP/USD data of 400 time steps and 300 episodes in January 2020,  and tested with the rest of year of 2020.
 ## data processing
 please check 'preparing_data' file
